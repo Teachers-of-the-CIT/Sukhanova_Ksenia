@@ -24,5 +24,11 @@ namespace Perfumer
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Hide();
+            new EnterWindow().Show();
+        }
     }
 }
